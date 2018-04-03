@@ -1,5 +1,5 @@
-import Animalicon from './animalicon.js'
+import AnimalIdenticon from './animal-identicon.js'
 
-const animalicon = (identifier) => { return new Animalicon(identifier) }
+const animalIdenticon = (identifier) => { return new AnimalIdenticon(identifier) }
 
-export default animalicon
+export default animalIdenticon

@@ -1,4 +1,4 @@
-# animalicon-js
+# animal-identicon-js
 
 JavaScript library for generation animal icons using SVG.
 It's like identicon but only 4096 patterns. (64 animals and 64 colors)
@@ -9,7 +9,7 @@ It's like identicon but only 4096 patterns. (64 animals and 64 colors)
 ## Usage
 
 ```js
-animalicon = require('animalicon')
+animalIdenticon = require('animal-identicon')
 
-animalicon('camelmasa').toSvg(64)
+animalIdenticon('camelmasa').toSvg(64)
 ```

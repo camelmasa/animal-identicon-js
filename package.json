@@ -1,5 +1,5 @@
 {
-  "name": "animalicon",
+  "name": "animal-identicon",
   "version": "0.0.1",
   "files": [
     "README.md",
@@ -7,10 +7,10 @@
   ],
   "description": "JavaScript library for generation animal icons using SVG",
   "main": "./dist/index.js",
-  "repository": "git@github.com:camelmasa/animalicon-js.git",
+  "repository": "git@github.com:camelmasa/animal-identicon-js.git",
   "author": "Masahiro Saito",
   "license": "MIT",
-  "homepage": "https://github.com/camelmasa/animalicon-js",
+  "homepage": "https://github.com/camelmasa/animal-identicon-js",
   "scripts": {
     "watch": "webpack --progress --colors --watch"
   },

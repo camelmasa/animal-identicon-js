@@ -1,6 +1,6 @@
 import sha1 from 'js-sha1'
 
-class Animalicon {
+class AnimalIdenticon {
   constructor(identifier) {
     if (typeof identifier !== 'string') {
       throw new Error("Please pass string argument");
@@ -62,4 +62,4 @@ class Animalicon {
   }
 }
 
-export default Animalicon
+export default AnimalIdenticon

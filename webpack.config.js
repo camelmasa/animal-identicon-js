@@ -3,7 +3,7 @@ const config = {
   entry: './src/index.js',
   output: {
     filename: 'index.js',
-    library: 'animalicon',
+    library: 'animalIdenticon',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
