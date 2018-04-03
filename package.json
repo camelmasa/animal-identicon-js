@@ -1,0 +1,24 @@
+{
+  "name": "animalicon",
+  "version": "0.0.1",
+  "files": [
+    "README.md",
+    "dist"
+  ],
+  "description": "JavaScript library for generation animal icons using SVG",
+  "main": "./dist/index.js",
+  "repository": "git@github.com:camelmasa/animalicon-js.git",
+  "author": "Masahiro Saito",
+  "license": "MIT",
+  "homepage": "https://github.com/camelmasa/animalicon-js",
+  "scripts": {
+    "watch": "webpack --progress --colors --watch"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "js-sha1": "^0.6.0"
+  }
+}
